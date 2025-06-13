@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degradê em CSS</title>
+<style>
+    *{
+        /*esse asteristico é para configurações globais, sem ele, o to top buga*/
+        height: 100%;
+    }
+    body{
+
+        background-image:linear-gradient(34deg,#9003FF 27%,#FF00C8,#FF007F,#FF3024,#FF7300,#FFC813);/*pode colocar: to top, to right, to bottom, to left ou escolher a inclinação usando um numero+deg
+        também é possivel escolher quanto da cor aparece, colocando a porcentagem ao lado */
+        background-attachment: fixed;
+    }
+    div{
+        background-image:radial-gradient(circle,#9003FF,#FF00C8,#FF007F,#FF3024,#FF7300,#FFC813);
+
+        background-attachment: fixed;
+    }
+</style>
+
+</head>
+<body>
+
+    <h1>Testando gradiente</h1>
+    <div><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa quae, culpa neque incidunt blanditiis id vitae facere, quibusdam maxime consequuntur ea unde cupiditate impedit molestiae ratione magni voluptas dolor suscipit.</p></div>
+    
+</body>
+</html>

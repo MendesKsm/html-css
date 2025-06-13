@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+
+    <style>
+        @font-face {
+            font-family:"Valentina";
+            src: url("fontes/Be\ My\ Valentine.otf") format(opentype), url("fontes/Be\ My\ Valentine.ttf") format(truetype);
+            font-weight:normal;
+            font-style: normal;
+            /*
+            Tipos de format()
+
+            -opentype(otf)
+            -truetype(ttf)
+            -embedded-opentype
+            -truetype-aat(apple advanced typography)
+            -svg
+            */
+        }
+
+        @font-face {
+            font-family:'ValentinaDois';
+            src: url("fontes/Valentine.otf") format(opentype), url("fontes/Valentine.ttf") format(truetype);
+           
+        }
+
+        body{
+            font-family:'ValentinaDois';
+            font-weight: normal;
+            font-size:2em;
+        }
+        h1{
+            font-family:'Valentina';
+            font-size:3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>   
+    <p>lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, perferendis dicta qui sit facilis dolorem. Nihil quaerat distinctio placeat laboriosam aliquid debitis aliquam, totam sapiente incidunt nisi corrupti quae sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, pariatur molestiae quae blanditiis, fugiat adipisci dicta itaque, commodi deleniti dolore fugit sed ipsam voluptatem enim suscipit eos veniam porro. Eos.</p>
+</body>
+</html>

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    background-color:aquamarine;
+    font-family:'Courier New', Courier, monospace;
+}
+h1{
+    color: #157e00;
+}
+
+h1#principal{
+    text-align: center;
+    color:aliceblue;
+    background-color:rgb(43, 255, 0);
+}
+
+h2{
+    color:#083100
+}
+
+.basico{
+    color: rgba(63, 63, 122, 0.788);
+    font-weight: bold;
+
+}
+.intermediario{
+    color: rgba(122, 121, 63, 0.788);
+    font-weight: bold;
+
+}
+.avancado{
+    color: rgba(122, 63, 63, 0.788);
+    font-weight: bold;
+}
+
+.destaque{
+    background-color:#ff00c8b6;/*adicionado em titulo html avancado, como outra classe*/
+}
