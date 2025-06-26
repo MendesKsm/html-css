@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/*Margin--> espaço externo em volta da borda do elemento */
+/*Padding--> Espaço entre o elemto e as bordas desse, parte interna*/
+
+:root{
+    --cor0:#383942;
+    --cor1:#5C5F84;
+    --cor2:#6B75F7;
+    --cor3:#3a3f85;
+    --cor4:#ffffff;
+    --cor5:#000011;
+}
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+body{
+    background-color:var(--cor0);
+}
+header{
+    background-image:linear-gradient(to bottom, var(--cor1), var(--cor3));
+    padding-top: 15px;
+    margin-bottom:-20px;
+    text-align:center;
+    min-height:100px;
+}
+header > h1{
+    color:var(--cor4);
+    padding:10px;
+}
+
+nav{
+    padding:12px;
+    background-color: var(--cor3);
+    box-shadow:0px 9px 11px 0px #000011a9;
+}
+nav > a {
+    padding: 10px;
+    margin:16px;
+    text-decoration: double;
+    color:var(--cor4);
+}
+nav>a:hover{
+    background-color:var(--cor2);
+}
+
+main{
+    padding:16px;
+    background-color:var(--cor4);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    min-width:280px;
+    max-width:800px;
+    margin:auto;
+}
+main >p{
+    text-align:justify;
+    font-size:1em;
+}
+
+
+
+img{
+    width: 100%;
+}
+
+.video{
+   /* background-color:red;*/
+    position:relative;
+    margin:0px -20px 30px -20px;
+    padding: 10px;
+    padding-bottom:69%;
+}
+.video > iframe{
+
+    position:absolute;
+    top:5%;
+    left:5%;
+    width:90%;
+    height:90%;
+}
+
+#gta{/*Para testes de margin e padding, apagar depois de concluido*/
+    background-color: aqua;
+    border:12px solid green;
+    min-width: 220px;
+    max-width: 800px;
+    margin:auto;
+    padding:35px;
+}
